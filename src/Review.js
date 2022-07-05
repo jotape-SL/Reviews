@@ -3,10 +3,15 @@ import people from './data';
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 
 const Review = () => {
-  const [index, setIndex] = useState(2);
+  const [index, setIndex] = useState(0);
   const { name, job, image, text } = people[index];
 
-  const nextPerson = () => {};
+  const nextPerson = () => {
+    setIndex((index) => (index >= people.length - 1 ? (index = 0) : index + 1));
+  };
+  const prevPerson = () => {
+    setIndex((index) => (index <= 0 ? (index = people.length - 1) : index - 1));
+  };
 
   return (
     <article className='review'>
