@@ -1,6 +1,6 @@
 # Reviews
 
-Um slider apresentando reviews de possíveis usuarios, feito como treino de React.
+Um slider manual apresentando reviews de possíveis usuarios, apresentando a funcionalidade de ecolher uma review aleatória. Feito como treino de React.
 
 ## 🚀 Como executar o projeto
 
@@ -28,7 +28,7 @@ $npm start
 ```
 ## 🕸 Link para o site ``(Deploy feito pelo Vercel)``
 
-- **[Slider](https://slider-fawn.vercel.app/)**
+- **[Reviews](https://reviews-pi.vercel.app/)**
 
 ---
 
