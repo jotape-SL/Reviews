@@ -30,7 +30,6 @@ $npm start
 
 - **[Reviews](https://reviews-pi.vercel.app/)**
 
----
 
 ## 🛠 Tecnologias
 
